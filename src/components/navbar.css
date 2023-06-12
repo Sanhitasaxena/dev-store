@@ -1,0 +1,10 @@
+.mainContainer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    /* width: 80%; */
+}
