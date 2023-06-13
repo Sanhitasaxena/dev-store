@@ -1,0 +1,33 @@
+.container{
+    border: 1px solid black;
+    padding: 5px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    text-align: center;
+    /* align-items: center; */
+    /* display: flex; */
+}
+
+.main{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.headline{
+    text-align: center;
+}
+
+.btn{
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
